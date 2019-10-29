@@ -30,8 +30,15 @@ ul a.active {
 #sticky{
     position: sticky !important;
     top: 0;
-    padding-bottom: 50px;
-    padding-top: 0;
+    /* Throwing this out so we won't always have a huge navbar when we scroll */
+    /* padding-bottom: 50px; */
+    padding: 0;
+    /* padding-top: 1%; */
+}
+
+/* Adding a spacer instead of the 50px padding*/
+#spacer {
+ padding: 1vw;
 }
 #navbarResponsive {
     font-size: 1.1rem !important;

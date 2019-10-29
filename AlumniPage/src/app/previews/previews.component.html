@@ -1,1 +1,33 @@
-<p>previews works!</p>
+<div class="container-fluid">
+  <!-- Stories Section -->
+  <ng-container *ngFor="let val of stories; let i=index;">
+    <div *ngIf="i < 1">
+      <div class="card mb-3" style="max-width: 540px;">
+        <div class="row no-gutters">
+          <div class="col-md-4">
+            <img src="{{val.picture}}" class="card-img" alt="image">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">{{val.first_name}} + " " + {{val.last_name}}</h5>
+              <p class="card-text">{{course_attending}}</p>
+              <p class="card-text"><small class="text-muted"><a routerLink="/stories">Read {{val.first_name}}'s success
+                    story</a></small></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </ng-container>
+  <!-- Stories Section End -->
+
+
+  <!-- Career section -->
+  <!-- career section end -->
+
+  <!-- Directory section -->
+  <!-- directory section end -->
+
+  <!-- events section -->
+  <!-- events section end -->
+</div>
