@@ -19,7 +19,9 @@ export class PreviewsComponent implements OnInit {
  
     "picture" : "https://cdn.pixabay.com/photo/2019/05/07/23/57/hippo-4187448_960_720.jpg",
  
-    "my_success_story" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis earum consequuntur suscipit veritatis labore iusto deserunt, id dicta molestias, deleniti. Deserunt temporibus veniam provident esse quisquam hic facere ab aut!"
+    "my_success_story" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis earum consequuntur suscipit veritatis labore iusto deserunt, id dicta molestias, deleniti. Deserunt temporibus veniam provident esse quisquam hic facere ab aut!",
+
+    "short": "First few characters of success story..."
  
     } , {
  
@@ -33,7 +35,9 @@ export class PreviewsComponent implements OnInit {
  
     "picture" : "https://cdn.pixabay.com/photo/2017/10/20/10/58/elephant-2870777_960_720.jpg",
  
-    "my_success_story" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis earum consequuntur suscipit veritatis labore iusto deserunt, id dicta molestias, deleniti. Deserunt temporibus veniam provident esse quisquam hic facere ab aut!"
+    "my_success_story" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis earum consequuntur suscipit veritatis labore iusto deserunt, id dicta molestias, deleniti. Deserunt temporibus veniam provident esse quisquam hic facere ab aut!",
+    
+    "short": "First few characters of success story..."
  
     } , {
  
@@ -47,7 +51,9 @@ export class PreviewsComponent implements OnInit {
  
     "picture" : "https://cdn.pixabay.com/photo/2015/01/27/19/34/giraffe-614141_960_720.jpg",
  
-    "my_success_story" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis earum consequuntur suscipit veritatis labore iusto deserunt, id dicta molestias, deleniti. Deserunt temporibus veniam provident esse quisquam hic facere ab aut!"
+    "my_success_story" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis earum consequuntur suscipit veritatis labore iusto deserunt, id dicta molestias, deleniti. Deserunt temporibus veniam provident esse quisquam hic facere ab aut!",
+
+    "short": "First few characters of success story..."
  
     } , {
  
@@ -61,7 +67,9 @@ export class PreviewsComponent implements OnInit {
  
     "picture" : "https://cdn.pixabay.com/photo/2016/01/02/16/53/lion-1118467_960_720.jpg",
  
-    "my_success_story" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis earum consequuntur suscipit veritatis labore iusto deserunt, id dicta molestias, deleniti. Deserunt temporibus veniam provident esse quisquam hic facere ab aut!"
+    "my_success_story" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis earum consequuntur suscipit veritatis labore iusto deserunt, id dicta molestias, deleniti. Deserunt temporibus veniam provident esse quisquam hic facere ab aut!",
+
+    "short": "First few characters of success story..."
  
     } , {
  
@@ -75,7 +83,9 @@ export class PreviewsComponent implements OnInit {
  
     "picture" : "https://cdn.pixabay.com/photo/2018/11/28/01/17/crocodile-3842768_960_720.jpg",
  
-    "my_success_story" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis earum consequuntur suscipit veritatis labore iusto deserunt, id dicta molestias, deleniti. Deserunt temporibus veniam provident esse quisquam hic facere ab aut!"
+    "my_success_story" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis earum consequuntur suscipit veritatis labore iusto deserunt, id dicta molestias, deleniti. Deserunt temporibus veniam provident esse quisquam hic facere ab aut!",
+
+    "short": "First few characters of success story..." 
  
     } , {
  
@@ -89,7 +99,9 @@ export class PreviewsComponent implements OnInit {
  
     "picture" : "https://cdn.pixabay.com/photo/2018/09/10/21/02/bouquet-3668046_960_720.jpg",
  
-    "my_success_story" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis earum consequuntur suscipit veritatis labore iusto deserunt, id dicta molestias, deleniti. Deserunt temporibus veniam provident esse quisquam hic facere ab aut!"
+    "my_success_story" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis earum consequuntur suscipit veritatis labore iusto deserunt, id dicta molestias, deleniti. Deserunt temporibus veniam provident esse quisquam hic facere ab aut!",
+
+    "short": "First few characters of success story..."
     
  }];
 

@@ -1,7 +1,7 @@
 <div class="container-fluid">
   <!-- Stories Section -->
   <ng-container *ngFor="let val of stories; let i=index;">
-    <div *ngIf="i < 1">
+    <div *ngIf="i < 2">
       <div class="card mb-3" style="max-width: 540px;">
         <div class="row no-gutters">
           <div class="col-md-4">
@@ -9,8 +9,9 @@
           </div>
           <div class="col-md-8">
             <div class="card-body">
-              <h5 class="card-title">{{val.first_name}} + " " + {{val.last_name}}</h5>
-              <p class="card-text">{{course_attending}}</p>
+              <h5 class="card-title mb-0 pb-0">{{val.first_name}} {{val.last_name}}</h5>
+              <p class="card-text">{{course_attending}}<br>
+            {{val.short}}</p>
               <p class="card-text"><small class="text-muted"><a routerLink="/stories">Read {{val.first_name}}'s success
                     story</a></small></p>
             </div>
