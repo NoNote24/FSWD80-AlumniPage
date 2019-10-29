@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Navigation</title>
+    <link rel="stylesheet" type="text/css" href="css_nav.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+    <!-- header starts -->
+
+    <!-- CODEFACTORY HEADER -->
+    <nav class="navbar navbar-expand-sm navbar-light mb-0 pb-0 d-flex">
+
+        <a class="navbar-brand logo" href="https://codefactory.wien/en/home-en/"><img src="../img/logo.png"></a>
+
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarResponsive">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse pr-3" id="navbarResponsive">
+            <ul class="nav text-secondary ml-auto flex-nowrap text-secondary">
+                <li class="nav-item">
+                    <a class="nav-link text-secondary" id="hide_dropdown_home"href="https://codefactory.wien/en/home-en/">HOME</a>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-secondary" id="hide_dropdown_course" href="https://codefactory.wien/en/home-en/"
+                        id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+                        aria-expanded="false">
+                        OUR COURSES
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="">Full Stack Web Developer</a>
+                        <a class="dropdown-item" href="">Front End Web Developer</a>
+                    </div>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-secondary" id="hide_dropdown_company" href="https://codefactory.wien/en/home-en/" id="navbarDropdown"
+                        role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        OUR COMPANIES
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="">Career_Net</a>
+                        <a class="dropdown-item" href="">Brand Ambassador</a>
+                    </div>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link text-secondary" href="https://codefactory.wien/en/home-en/">NEWS</a>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-secondary" href="https://codefactory.wien/en/home-en/" id="navbarDropdown"
+                        role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        ABOUT US
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="">Team</a>
+                        <a class="dropdown-item" href="">Payment and Financing Options</a>
+                    </div>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link text-secondary" href="https://codefactory.wien/en/home-en/">CONTACT</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <hr>
+
+
+    <!-- ALUMNI HEADER -->
+    <nav class="navbar navbar-expand navbar-light navbar_alumni my-0" id="sticky">
+
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarResponsive">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse navbar_alumni_text">
+
+            <ul class="navbar-nav text-secondary navbar_alumni_text font-weight-bold mx-auto"  id="alumni">
+                <li class="nav-item">
+                    <a class="nav-link text-secondary text-success" routerLink="/">ALUMNI</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link text-secondary" routerLink="/stories">STORIES</a>
+                </li>
+                <!-- routerLink="/stories" -->
+                <li class="nav-item">
+                    <a class="nav-link text-secondary" routerLink="/career">CAREER</a>
+                </li>
+                <!-- routerLink="/career" -->
+                <li class="nav-item">
+                    <a class="nav-link text-secondary" routerLink="/directory">DIRECTORY</a>
+                </li>
+                <!-- routerLink="/directory" -->
+                <li class="nav-item">
+                    <a class="nav-link text-secondary" routerLink="/events">EVENTS</a>
+                </li>
+                <!-- routerLink="/events" -->
+            </ul>
+        </div>
+    </nav>
+
+
+    <div class="content">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis, qui fuga amet autem dignissimos eligendi
+        aspernatur! Nemo possimus tenetur velit deserunt cupiditate in impedit adipisci, facere repudiandae, qui,
+        eligendi neque.
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti rerum est voluptas explicabo quidem odio? Sit
+        voluptates quisquam alias iste aliquam labore nobis quidem provident excepturi, maxime eos et incidunt!
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates atque non ratione aliquam quam, harum iusto
+        ut unde ab distinctio voluptas natus. Explicabo, illum! Illum incidunt eos quis corrupti
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt officia quidem illum placeat
+        exercitationem delectus consequuntur esse reprehenderit nulla dignissimos excepturi voluptatum, totam
+        voluptatibus nam perspiciatis possimus asperiores praesentium sit?
+        <img src="../img/map.jpg" class="image" alt="">
+    </div>
+
+
+    <!-- /header ends-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

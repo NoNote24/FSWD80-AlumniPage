@@ -68,26 +68,26 @@ export class CareersComponent implements OnInit {
 
   constructor() { }
 
-  displayCareers(careers) {
-    careers.forEach(element => {
-      document.getElementById("divCareers").innerHTML += `
-      <div class="card mb-3">
-        <img src="` + element.img + `" class="card-img-top" alt="Image">
-        <div class="card-body">
-          <h5 class="card-title">`+ element.companyName + `</h5>
-          <p class="card-text">` + element.description + `</p>
-          <p class="card-text">We are searching for: ` + element.searchingFor + `</p>
-          <a href="https://www.karriere.at/">View full job offer</a>
-          <p class="card-text"><small class="text-muted">Contact us: ` + element.contact + ` </small></p>
-        </div>
-      </div>
-      `
-    });
-  }
+  // displayCareers(careers) {
+  //   careers.forEach(element => {
+  //     document.getElementById("divCareers").innerHTML += `
+  //     <div class="card mb-3">
+  //       <img src="` + element.img + `" class="card-img-top" alt="Image">
+  //       <div class="card-body">
+  //         <h5 class="card-title">`+ element.companyName + `</h5>
+  //         <p class="card-text">` + element.description + `</p>
+  //         <p class="card-text">We are searching for: ` + element.searchingFor + `</p>
+  //         <a href="https://www.karriere.at/">View full job offer</a>
+  //         <p class="card-text"><small class="text-muted">Contact us: ` + element.contact + ` </small></p>
+  //       </div>
+  //     </div>
+  //     `
+  //   });
+  // }
 
   ngOnInit() {
 
-   this.displayCareers(this.careers);
+  //  this.displayCareers(this.careers);
 
     }
 

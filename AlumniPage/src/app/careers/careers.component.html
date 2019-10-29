@@ -1,9 +1,25 @@
-
 <div class="container">
-    <h2>Careers</h2>
-    <h4>Looking for a job as a developer? Here are companies that are hiring!</h4>
+  <h2>Careers</h2>
+  <h4>Looking for a job as a developer? Here are companies that are hiring!</h4>
 
-    <div class="divCareers"></div>
+  <!-- <div class="divCareers"></div> -->
+  <!-- <div class="card-deck"> -->
+  <div class="row">
+    <ng-container *ngFor="let val of careers">
+      <div class="col-lg-5 offset-1 my-4">
+            <div class="card mb-3 h-100 shadow p-3 mb-5 bg-white rounded p-4">
+            <img src="{{val.img}}" class="card-img-top pt-4" style="width: 80%;" alt="Image">
+            <div class="card-body">
+                <h5 class="card-title">{{val.companyName}}</h5>
+                <p class="card-text">{{val.description}}</p>
+                <p class="card-text">We are searching for: {{val.searchingFor}}</p>
+                <a href="https://www.karriere.at/">View full job offer</a>
+                <p class="card-text"><small class="text-muted">Contact us: {{val.contact}}</small></p>
+            </div>
+        </div>
+      </div>
+    </ng-container>
+  </div>
+  <!-- </div> -->
 
 </div>
-
