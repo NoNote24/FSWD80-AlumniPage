@@ -112,12 +112,12 @@ for (let i = 0; i < this.alumni.length; i++)
       {
          // definition of the new element
          var newItem_1 = 
-        	`<tr class="">
+        	`<tr class="table-success">
                 <td>`+ this.alumni[i].first_name +`</td>
                 <td>`+ this.alumni[i].last_name +`</td>
-                <td>`+ this.alumni[i].current_working_field +`</td>
-                <td>`+ this.alumni[i].job_title +`</td>
-                <td>`+ this.alumni[i].e_mail +`</td>
+                <td class="hide_mobile">`+ this.alumni[i].current_working_field +`</td>
+                <td class="hide_mobile">`+ this.alumni[i].job_title +`</td>
+                <td class="hide_email">`+ this.alumni[i].e_mail +`</td>
                 <td><input type="submit" class="btn" value="Write to me!"></td>
               </tr>`
          // insert the new element 
