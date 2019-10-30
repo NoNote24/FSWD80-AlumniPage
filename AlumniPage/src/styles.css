@@ -165,3 +165,16 @@ ul a.active {
       }
   
 /* Styles Footer End*/
+
+/* Styles Preview Preceder */
+@media screen and (max-width: 550px) {
+    .responsiveText {
+        font-size: 70%;
+    }
+}
+
+@media screen and (max-width: 730px) {
+    .responsiveText {
+        font-size: 85%;
+    }
+}
