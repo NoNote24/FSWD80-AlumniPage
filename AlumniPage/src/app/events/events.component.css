@@ -6,7 +6,7 @@
     margin-right: auto;
     display: flex;
     flex-wrap: wrap;
-    margin-top: 40px
+    margin-top: 40px;
 }
 
 /* Image zoom on hover + Overlay colour */
@@ -81,6 +81,42 @@
     text-decoration: none;
 }
 
+.bgIcon0{
+    background: url('https://cdn.pixabay.com/photo/2017/12/01/08/52/feedback-2990424_960_720.jpg');background-size: cover;
+    background-repeat: no-repeat;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+}
+
+.bgIcon1{
+    background: url('https://cdn.pixabay.com/photo/2016/12/26/17/28/food-1932466_960_720.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+}
+.bgIcon2{
+    background: url('https://cdn.pixabay.com/photo/2016/11/15/07/56/group-1825510_960_720.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+}
+.bgIcon3{
+    background: url('https://cdn.pixabay.com/photo/2017/12/01/08/52/feedback-2990424_960_720.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+}
 .parent:hover .child, .parent:focus .child {
     -ms-transform: scale(1.2);
     -moz-transform: scale(1.2);

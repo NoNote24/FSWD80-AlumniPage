@@ -18,7 +18,7 @@ export class StoriesComponent implements OnInit {
  
     "picture" : "https://cdn.pixabay.com/photo/2019/05/07/23/57/hippo-4187448_960_720.jpg",
  
-    "my_success_story" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis earum consequuntur suscipit veritatis labore iusto deserunt, id dicta molestias, deleniti. Deserunt temporibus veniam provident esse quisquam hic facere ab aut!"
+    "my_success_story" : "My name is Osama, I have studied economics at Damascus University. I have worked in an international company as an export accountant in Jordan. Since 2015 I am living in Austria, during this time I´ve learned German. I like to learn coding and computer languages, for that I 've started the course \" web developer \" at Code Factory institute in September. It was a great experience to learn and get more knowledge."
  
     } , {
  
@@ -32,7 +32,7 @@ export class StoriesComponent implements OnInit {
  
     "picture" : "https://cdn.pixabay.com/photo/2017/10/20/10/58/elephant-2870777_960_720.jpg",
  
-    "my_success_story" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis earum consequuntur suscipit veritatis labore iusto deserunt, id dicta molestias, deleniti. Deserunt temporibus veniam provident esse quisquam hic facere ab aut!"
+    "my_success_story" : "I started building websites when I was a kid and took every IT class possible at school. After a career in interfaith dialogue I returned to programming, took a course in Java Software Development and one for Full Stack Web Development. My languages include Java, a bit of Ruby, HTML5, (S)CSS, JavaScript and Typescript - though I have a special love for Java and Typescript."
  
     } , {
  
@@ -46,7 +46,7 @@ export class StoriesComponent implements OnInit {
  
     "picture" : "https://cdn.pixabay.com/photo/2015/01/27/19/34/giraffe-614141_960_720.jpg",
  
-    "my_success_story" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis earum consequuntur suscipit veritatis labore iusto deserunt, id dicta molestias, deleniti. Deserunt temporibus veniam provident esse quisquam hic facere ab aut!"
+    "my_success_story" : "Studying coding has given me a better perspective of what I want to do in my life. Before CodeFactory I had not written a line of code in my life, but now I can present you a moderately nice and moderately responsive web page. Moreover, CodeFactory's moto on giving not only the education, but also serving as a gathering place for alumni is endearing. And they offer beer at the parties!"
  
     } , {
  
@@ -60,7 +60,7 @@ export class StoriesComponent implements OnInit {
  
     "picture" : "https://cdn.pixabay.com/photo/2016/01/02/16/53/lion-1118467_960_720.jpg",
  
-    "my_success_story" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis earum consequuntur suscipit veritatis labore iusto deserunt, id dicta molestias, deleniti. Deserunt temporibus veniam provident esse quisquam hic facere ab aut!"
+    "my_success_story" : "I attended Full-Web Development course in September 2019 and finished in December 2019. Before attending the course, I worked in several companies in finance and business intelligence departments. Doing the course at Codefactory was the best decision for me to start a new working-life. They teach you how to work in a programming team and how to solve problems in the end. I am now working again in finance industry but with a lot of programming too, which I love 😊."
  
     } , {
  
@@ -74,7 +74,7 @@ export class StoriesComponent implements OnInit {
  
     "picture" : "https://cdn.pixabay.com/photo/2018/11/28/01/17/crocodile-3842768_960_720.jpg",
  
-    "my_success_story" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis earum consequuntur suscipit veritatis labore iusto deserunt, id dicta molestias, deleniti. Deserunt temporibus veniam provident esse quisquam hic facere ab aut!"
+    "my_success_story" : "After the loss of my old job I decided to change completely my life. I started researching what will be the future of working and found that coding is definitely the FUTURE. It was difficult for me without any experience finding a coding school but then there was CodeFactory. The provided me with an extensive education and now I am working in the coding industry as a senior web developer. My motto is, everyone can be a programmer you just have to want it."
  
     } , {
  
@@ -88,7 +88,7 @@ export class StoriesComponent implements OnInit {
  
     "picture" : "https://cdn.pixabay.com/photo/2018/09/10/21/02/bouquet-3668046_960_720.jpg",
  
-    "my_success_story" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis earum consequuntur suscipit veritatis labore iusto deserunt, id dicta molestias, deleniti. Deserunt temporibus veniam provident esse quisquam hic facere ab aut!"
+    "my_success_story" : "I went to a polytechnical college in Burgenland and moved to Vienna to study Information Technology at the Technical University of Vienna. I'm an expert in IT-security with a specialization in power grids. In autumn 2019 I also certified as a SCRUM master."
     
  }];
 

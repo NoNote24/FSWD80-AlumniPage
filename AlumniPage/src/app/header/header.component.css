@@ -34,6 +34,7 @@ ul a.active {
     /* padding-bottom: 50px; */
     padding: 0;
     /* padding-top: 1%; */
+    z-index: 100;
 }
 
 /* Adding a spacer instead of the 50px padding*/

@@ -1,9 +1,9 @@
-<!-- <div class="wrapper" *ngFor="let val of events">
-        <div class="parent" onclick="">
-           <div class="child"  [ngStyle]="{'background-image': url({{val.img}})}"">
-               <p class="header">{{val.type_of_event}}</p>
-               <p class="date">Date: {{val.date}}<br>Location: {{val.location}}</p>
-               <p class="description">{{val.description}}</p>
-           </div>
-       </div>
-</div> -->
+<div class="wrapper">
+  <div class="parent bgIcon" *ngFor="let val of events ; index as i">
+    <div class="child bgIcon{{ i }}">
+      <p class="header">{{ val.type_of_event }}</p>
+      <p class="date">Date: {{ val.date }}<br>Location: {{ val.location }}</p>
+      <p class="description">{{ val.description }}</p>
+    </div>
+  </div>
+</div>
