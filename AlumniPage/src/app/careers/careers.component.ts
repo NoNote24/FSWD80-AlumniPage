@@ -15,7 +15,7 @@ export class CareersComponent implements OnInit {
  
     "description" : "Die REWE International AG zeigt Verantwortung. In unserem nachhaltigen Handeln orientieren wir uns an den vier Nachhaltigkeitssäulen \"Grüne Produkte\", \"Mitarbeiter\", \"Energie, Klima und Umwelt\" und \"Gesellschaftliches Engagement\".",
  
-    "searchingFor" : "https://www.karriere.at",
+    "searchingFor" : "Front-End Developers for our online shop",
  
     "img" : "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Rewe-group.svg/1200px-Rewe-group.svg.png",
  
@@ -29,7 +29,7 @@ export class CareersComponent implements OnInit {
  
     "description" : "Die SPAR Österreich-Gruppe ist ein mitteleuropäischer Handelskonzern und im Kerngeschäft auch in den Ländern Nordost-Italien, Ungarn, Slowenien und Kroatien tätig; im Shopping-Center-Bereich zudem in Tschechien und mit Hervis zusätzlich in Tschechien, Rumänien und Bayern. Mit REGIO, TANN und dem Weingut Schloss Fels führt SPAR auch drei eigene Produktionsbetriebe.",
  
-    "searchingFor" : "https://www.karriere.at",
+    "searchingFor" : "Back-End Developers for our import department",
  
     "img" : "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Spar-logo.svg/250px-Spar-logo.svg.png",
  
@@ -43,7 +43,7 @@ export class CareersComponent implements OnInit {
  
     "description" : "Amazon.com, Inc. ist ein börsennotierter US-amerikanischer Onlineversandhändler mit einer breit gefächerten Produktpalette. Nach eigenen Angaben hat Amazon als Marktführer des Handels im Internet die weltweit größte Auswahl an Büchern, CDs und Videos.",
  
-    "searchingFor" : "https://www.karriere.at",
+    "searchingFor" : "JavaScript Developers",
  
     "img" : "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Amazon.com-Logo.svg/250px-Amazon.com-Logo.svg.png",
  
@@ -57,7 +57,7 @@ export class CareersComponent implements OnInit {
  
     "description" : "Lush ist ein Unternehmen mit Hauptsitz im britischen Poole, das Kosmetikartikel wie Seife und Duschgel herstellt und in einer eigenen Ladenkette vertreibt. Im Jahr 2015 betrieb das Unternehmen weltweit 936 Läden und verkaufte Produkte im Wert von 574 Millionen Pfund.",
  
-    "searchingFor" : "https://www.karriere.at",
+    "searchingFor" : "Full Stack Developers",
  
     "img" : "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Lush_%28Unternehmen%29_logo.svg/250px-Lush_%28Unternehmen%29_logo.svg.png",
  

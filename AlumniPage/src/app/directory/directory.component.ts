@@ -137,10 +137,11 @@ function sendMail(obj)
 var btns = document.getElementsByClassName("btn");
 
 for(let i = 0; i< btns.length ; i+=1){
-    btns[i].addEventListener("click",function(){
-        sendMail(this.alumni[i])
+    btns[ i ].addEventListener("click",function(){
+        sendMail(this.alumni[ i ])
         // console.log(i)
     });
 }
+
   }
 }

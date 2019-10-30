@@ -19,7 +19,7 @@ export class EventsComponent implements OnInit {
  
     img : "https://cdn.pixabay.com/photo/2017/12/01/08/52/feedback-2990424_960_720.jpg",
  
-    description : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum, beatae ratione, blanditiis necessitatibus nesciunt alias consequuntur dolor iste, nulla officia possimus voluptatibus maiores eos asperiores, est? Distinctio corporis perferendis earum?"
+    description : "Our biweekly gettogethers are the place where ideas are born. Meet wonderful colleagues, plot schemes to hack the world, and have a fabulous time with plenty of booze provided."
  
     } , {
  
