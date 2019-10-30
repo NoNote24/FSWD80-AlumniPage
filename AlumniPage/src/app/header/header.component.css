@@ -1,6 +1,5 @@
 img {
-    width: 260px;
-    height: 10vh;
+    width: 70%;
 }
 hr {
     display: block;
@@ -9,7 +8,8 @@ hr {
     margin-left: 20%;
     margin-right: 3%;
     border-style: inset;
-    border-width: 5px;
+    border-width: 1px;
+    background-color: green;
 }
 .navbar_alumni_text a {
     font-size: 1.5rem;

@@ -99,8 +99,8 @@ export class StoriesComponent implements OnInit {
 
 for (let i = 0; i < this.stories.length; i++) {
     container.innerHTML += `
-   <div class="col-lg-5 col-md-5 col-sm-12 mx-auto mt-5">
-      <div class="card mb-2">
+   <div class="col-lg-5 col-md-5 col-sm-12 mx-auto mt-5 pb-3">
+      <div class="card mb-2 h-100">
         <!--Card image-->
         <div class="view overlay">
           <img class="card-img-top" src="` + this.stories[i].picture + `" style="width:100%; height:38vh; object-fit:cover;">
